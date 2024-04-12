@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj": {}
+  },
+  "projects": {
+    "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj",
+        "projectName": "Tarea_ATM_Grupo1_POO",
+        "projectPath": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj",
+        "packagesPath": "C:\\Users\\Juan Carlos Iglesias\\.nuget\\packages\\",
+        "outputPath": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan Carlos Iglesias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.48.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
