@@ -13,6 +13,7 @@ namespace Tarea_ATM_Grupo1_POO.UI
     {
         public void LoadMenu()
         {
+
             bool authenticated = AuthenticateUser();
             if (!authenticated)
             {
@@ -20,12 +21,30 @@ namespace Tarea_ATM_Grupo1_POO.UI
                 return;
             }
 
+            var typeAccount = AnsiConsole.Prompt(
+               new SelectionPrompt<TypeAccount>()
+               .Title("\n[aqua]Seleccione su tipo de cuenta:[/]")
+               .PageSize(10)
+               .AddChoices(new[]
+               {
+                    TypeAccount.CuentaCorriente,
+                    TypeAccount.CuentaAhorro
+               }));
+            switch (typeAccount)
+            {
+                case TypeAccount.CuentaCorriente:
+                    Account.ProcessCurrentAccount();
+                    break;
+                case TypeAccount.CuentaAhorro:
+                    Account.ProcessSavingsAccount();
+                    break;
+            }
             char continuar;
             do
             {
                 var option = AnsiConsole.Prompt(
                     new SelectionPrompt<AccountOptions>()
-                    .Title("[blue]Seleccione una de las opciones: [/]")
+                    .Title("\n[blue]Seleccione una de las opciones: [/]")
                     .PageSize(10)
                     .AddChoices(new[]
                     {
@@ -61,7 +80,7 @@ namespace Tarea_ATM_Grupo1_POO.UI
                 continuar = AnsiConsole.Ask<char>("Desea continuar S(si), N(no)").ToString().ToLower()[0];
                 if (continuar != 's' && continuar != 'n')
                 {
-                    AnsiConsole.Markup("[red]Por favor, ingrese 'S' para sí o 'N' para no.[/]");
+                    AnsiConsole.Markup("\n[red]Por favor, ingrese 'S' para sí o 'N' para no.[/]");
                 }
             } while (continuar == 's');
         }
@@ -79,8 +98,8 @@ namespace Tarea_ATM_Grupo1_POO.UI
                     { "021212828", "3060" }
                 };
 
-                var numeroCuenta = AnsiConsole.Ask<string>("Ingrese su número de cuenta:");
-                var pin = AnsiConsole.Ask<string>("Ingrese su PIN:");
+                var numeroCuenta = AnsiConsole.Ask<string>("\n[deeppink2]Ingrese su número de cuenta:[/]");
+                var pin = AnsiConsole.Ask<string>("\n[deeppink2]Ingrese su PIN:[/]");
 
                 if (usuariosPIN.ContainsKey(numeroCuenta) && usuariosPIN[numeroCuenta] == pin)
                 {

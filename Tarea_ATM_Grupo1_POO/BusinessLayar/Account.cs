@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
+using Tarea_ATM_Grupo1_POO.Enums;
 
 namespace Tarea_ATM_Grupo1_POO.BusinessLayar
 {
@@ -32,7 +33,7 @@ namespace Tarea_ATM_Grupo1_POO.BusinessLayar
 
         public static void Withdraw()
         {
-            decimal amount = AnsiConsole.Ask<decimal>("[blue]Digite la cantidad que se quiere depositar: [/]");
+            decimal amount = AnsiConsole.Ask<decimal>("[blue]Digite la cantidad que se quiere retirar: [/]");
             if (amount > Balance) 
             {
                 AnsiConsole.WriteLine("Lo siento, no cuenta con fondos suficientes...");
@@ -91,7 +92,85 @@ namespace Tarea_ATM_Grupo1_POO.BusinessLayar
                 AnsiConsole.WriteLine($"[red]Error al pagar la factura: {ex.Message}[/]");
             }
         }
+
+        public static void ProcessCurrentAccount()
+        {
+            char continuar;
+            do
+            {
+                var option = AnsiConsole.Prompt(
+                    new SelectionPrompt<AccountOptions>()
+                    .Title("[blue]Seleccione una de las opciones:[/]")
+                    .PageSize(10)
+                    .AddChoices(new[]
+                    {
+                        AccountOptions.VerSaldo,
+                        AccountOptions.Retirar,
+                        AccountOptions.Depositar,
+                        AccountOptions.PagarFactura,
+                        AccountOptions.CambiarPin
+                    }));
+
+                switch (option)
+                {
+                    case AccountOptions.VerSaldo:
+                        ViewBalance();
+                        break;
+                    case AccountOptions.Retirar:
+                        Withdraw();
+                        break;
+                    case AccountOptions.Depositar:
+                        Deposit();
+                        break;
+                    case AccountOptions.PagarFactura:
+                        PayBills();
+                        break;
+                    case AccountOptions.CambiarPin:
+                        ChangePin();
+                        break;
+                    default:
+                        break;
+                }
+
+                AnsiConsole.WriteLine();
+                continuar = AnsiConsole.Ask<char>("Desea continuar S(si), N(no)");
+            } while (continuar == 's');
+        }
+
+        public static void ProcessSavingsAccount()
+        {
+            char continuar;
+            do
+            {
+                var option = AnsiConsole.Prompt(
+                    new SelectionPrompt<AccountOptions>()
+                    .Title("[blue]Seleccione una de las opciones:[/]")
+                    .PageSize(10)
+                    .AddChoices(new[]
+                    {
+                        AccountOptions.VerSaldo,
+                        AccountOptions.Retirar,
+                        AccountOptions.Depositar
+                    }));
+
+                switch (option)
+                {
+                    case AccountOptions.VerSaldo:
+                        ViewBalance();
+                        break;
+                    case AccountOptions.Retirar:
+                        Withdraw();
+                        break;
+                    case AccountOptions.Depositar:
+                        Deposit();
+                        break;
+                    default:
+                        break;
+                }
+
+                AnsiConsole.WriteLine();
+                continuar = AnsiConsole.Ask<char>("Desea continuar S(si), N(no)");
+            } while (continuar == 's');
+        }
     }
-
-
 }
