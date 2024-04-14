@@ -58,13 +58,13 @@ namespace Tarea_ATM_Grupo1_POO.UI
                 switch (option)
                 {
                     case AccountOptions.VerSaldo:
-                        Account.ViewBalance();
+                        Account.ViewBalanceCorriente();
                         break;
                     case AccountOptions.Retirar:
-                        Account.Withdraw();
+                        Account.WithdrawCorriente();
                         break;
                     case AccountOptions.Depositar:
-                        Account.Deposit();
+                        Account.DepositCorriente();
                         break;
                     case AccountOptions.PagarFactura:
                         Account.PayBills();

@@ -11,5 +11,14 @@ namespace Tarea_ATM_Grupo1_POO.Enums
             CuentaCorriente,
             CuentaAhorro
         }
+
+        public enum Bills
+        {
+            Energia,
+            Agua,
+            Banco,
+            Telefono,
+            Internet
+        }
 }
 
