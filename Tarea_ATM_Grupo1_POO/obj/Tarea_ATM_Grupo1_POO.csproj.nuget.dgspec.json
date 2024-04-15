@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MINED\\Desktop\\LabProgramacion2\\ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj": {}
+    "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MINED\\Desktop\\LabProgramacion2\\ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj": {
+    "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINED\\Desktop\\LabProgramacion2\\ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj",
+        "projectUniqueName": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj",
         "projectName": "Tarea_ATM_Grupo1_POO",
-        "projectPath": "C:\\Users\\MINED\\Desktop\\LabProgramacion2\\ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj",
-        "packagesPath": "C:\\Users\\MINED\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINED\\Desktop\\LabProgramacion2\\ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\obj\\",
+        "projectPath": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj",
+        "packagesPath": "C:\\Users\\Juan Carlos Iglesias\\.nuget\\packages\\",
+        "outputPath": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MINED\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Juan Carlos Iglesias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
