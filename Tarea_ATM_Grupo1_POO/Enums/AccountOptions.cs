@@ -9,9 +9,10 @@ namespace Tarea_ATM_Grupo1_POO.Enums
     public enum AccountOptions
     {
         VerSaldo,
-        Depositar,
         Retirar,
+        Depositar,
         PagarFactura,
-        CambiarPin
+        CambiarPin,
+        Salir
     }
 }

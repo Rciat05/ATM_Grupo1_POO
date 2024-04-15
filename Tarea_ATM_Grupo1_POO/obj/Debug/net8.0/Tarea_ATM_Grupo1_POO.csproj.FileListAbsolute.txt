@@ -16,3 +16,39 @@ C:\Desktop\Escritorio 2024\POO\Tareas\Lab 1- Computo 2\Tarea_ATM_Grupo1_POO\Tare
 C:\Desktop\Escritorio 2024\POO\Tareas\Lab 1- Computo 2\Tarea_ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.pdb
 C:\Desktop\Escritorio 2024\POO\Tareas\Lab 1- Computo 2\Tarea_ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.genruntimeconfig.cache
 C:\Desktop\Escritorio 2024\POO\Tareas\Lab 1- Computo 2\Tarea_ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\ref\Tarea_ATM_Grupo1_POO.dll
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\bin\Debug\net8.0\Tarea_ATM_Grupo1_POO.exe
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\bin\Debug\net8.0\Tarea_ATM_Grupo1_POO.deps.json
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\bin\Debug\net8.0\Tarea_ATM_Grupo1_POO.runtimeconfig.json
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\bin\Debug\net8.0\Tarea_ATM_Grupo1_POO.dll
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\bin\Debug\net8.0\Tarea_ATM_Grupo1_POO.pdb
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\bin\Debug\net8.0\Spectre.Console.dll
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.csproj.AssemblyReference.cache
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.AssemblyInfoInputs.cache
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.AssemblyInfo.cs
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.csproj.CoreCompileInputs.cache
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.sourcelink.json
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_AT.752411E2.Up2Date
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.dll
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\refint\Tarea_ATM_Grupo1_POO.dll
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.pdb
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.genruntimeconfig.cache
+C:\Users\briya\Desktop\Testing\Wilfredo\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\ref\Tarea_ATM_Grupo1_POO.dll
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\bin\Debug\net8.0\Tarea_ATM_Grupo1_POO.exe
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\bin\Debug\net8.0\Tarea_ATM_Grupo1_POO.deps.json
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\bin\Debug\net8.0\Tarea_ATM_Grupo1_POO.runtimeconfig.json
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\bin\Debug\net8.0\Tarea_ATM_Grupo1_POO.dll
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\bin\Debug\net8.0\Tarea_ATM_Grupo1_POO.pdb
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\bin\Debug\net8.0\Spectre.Console.dll
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.csproj.AssemblyReference.cache
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.AssemblyInfoInputs.cache
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.AssemblyInfo.cs
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.csproj.CoreCompileInputs.cache
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.sourcelink.json
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.csproj.CopyComplete
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.dll
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\refint\Tarea_ATM_Grupo1_POO.dll
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.pdb
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\Tarea_ATM_Grupo1_POO.genruntimeconfig.cache
+C:\Users\MINED\Desktop\LabProgramacion2\ATM_Grupo1_POO\Tarea_ATM_Grupo1_POO\obj\Debug\net8.0\ref\Tarea_ATM_Grupo1_POO.dll
