@@ -1,35 +1,39 @@
 ﻿using Spectre.Console;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tarea_ATM_Grupo1_POO.BusinessLayar;
 using Tarea_ATM_Grupo1_POO.Enums;
+using static Tarea_ATM_Grupo1_POO.UI.Menu;
 
 namespace Tarea_ATM_Grupo1_POO.UI
 {
     public class Menu
     {
+        public record AccountInfo(string AccountNumber, string Pin);
+
+        private readonly Dictionary<AccountInfo, string> _usuariosPIN = new Dictionary<AccountInfo, string>
+        {
+            { new AccountInfo("123456789", "1010"), "" },
+            { new AccountInfo("987654321", "1020"), "" },
+            { new AccountInfo("112233445", "1030"), "" },
+            { new AccountInfo("566778899", "1040"), "" },
+            { new AccountInfo("021212828", "3060"), "" }    
+        };
+
         public void LoadMenu()
         {
-
-            bool authenticated = AuthenticateUser();
-            if (!authenticated)
-            {
-                AnsiConsole.Markup("[red]Autenticación fallida. Saliendo del sistema.[/]");
-                return;
-            }
-
             var typeAccount = AnsiConsole.Prompt(
-               new SelectionPrompt<TypeAccount>()
-               .Title("\n[aqua]Seleccione su tipo de cuenta:[/]")
-               .PageSize(10)
-               .AddChoices(new[]
-               {
+                new SelectionPrompt<TypeAccount>()
+                .Title("\n[aqua]Seleccione su tipo de cuenta:[/]")
+                .PageSize(10)
+                .AddChoices(new[]
+                {
                     TypeAccount.CuentaCorriente,
                     TypeAccount.CuentaAhorro
-               }));
+                }));
+
+            var accountInfo = GetUserAccountInfo(); 
+
             switch (typeAccount)
             {
                 case TypeAccount.CuentaCorriente:
@@ -39,6 +43,14 @@ namespace Tarea_ATM_Grupo1_POO.UI
                     Account.ProcessSavingsAccount();
                     break;
             }
+
+            bool authenticated = AuthenticateUser(accountInfo);
+            if (!authenticated)
+            {
+                AnsiConsole.Markup("[red]Autenticación fallida. Saliendo del sistema.[/]");
+                return;
+            }
+
             char continuar;
             do
             {
@@ -85,23 +97,11 @@ namespace Tarea_ATM_Grupo1_POO.UI
             } while (continuar == 's');
         }
 
-        private bool AuthenticateUser()
+        private bool AuthenticateUser(AccountInfo accountInfo)
         {
             try
             {
-                var usuariosPIN = new Dictionary<string, string>
-                {
-                    { "123456789", "1010" },
-                    { "987654321", "1020" },
-                    { "112233445", "1030" },
-                    { "566778899", "1040" },
-                    { "021212828", "3060" }
-                };
-
-                var numeroCuenta = AnsiConsole.Ask<string>("\n[deeppink2]Ingrese su número de cuenta:[/]");
-                var pin = AnsiConsole.Ask<string>("\n[deeppink2]Ingrese su PIN:[/]");
-
-                if (usuariosPIN.ContainsKey(numeroCuenta) && usuariosPIN[numeroCuenta] == pin)
+                if (_usuariosPIN.ContainsKey(accountInfo))
                 {
                     return true;
                 }
@@ -116,6 +116,14 @@ namespace Tarea_ATM_Grupo1_POO.UI
                 AnsiConsole.WriteLine($"[red]Error al autenticar al usuario: {ex.Message}[/]");
                 return false;
             }
+        }
+
+        public AccountInfo GetUserAccountInfo()
+        {
+            var accountNumber = AnsiConsole.Ask<string>("\n\n[deeppink2]Ingrese su número de cuenta:[/]");
+            var pin = AnsiConsole.Ask<string>("\n[deeppink2]Ingrese su PIN:[/]");
+
+            return new AccountInfo(accountNumber, pin);
         }
     }
 }

@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\businesslayar\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\businesslayar\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\enums\\accountoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\enums\\accountoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\enums\\typeaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\enums\\typeaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\enums\\accountoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\enums\\accountoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\businesslayar\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\businesslayar\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,62 +38,78 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountOptions.cs",
-              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Enums\\AccountOptions.cs",
-              "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\Enums\\AccountOptions.cs",
-              "ToolTip": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Enums\\AccountOptions.cs",
-              "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\Enums\\AccountOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T01:39:45.25Z"
+              "DocumentIndex": 5,
+              "Title": "Tarea_ATM_Grupo1_POO",
+              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj",
+              "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj",
+              "ToolTip": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj",
+              "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-16T01:27:50.446Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TypeAccount.cs",
-              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Enums\\TypeAccount.cs",
-              "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\Enums\\TypeAccount.cs",
-              "ToolTip": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Enums\\TypeAccount.cs",
-              "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\Enums\\TypeAccount.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T01:39:42.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Program.cs",
               "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\Program.cs",
               "ToolTip": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Program.cs",
               "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T01:14:10.786Z"
+              "WhenOpened": "2024-04-16T01:26:31.189Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\UI\\Menu.cs",
-              "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\UI\\Menu.cs",
-              "ToolTip": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\UI\\Menu.cs",
-              "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\UI\\Menu.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAQwGIAAAASAAAA",
+              "DocumentIndex": 2,
+              "Title": "TypeAccount.cs",
+              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Enums\\TypeAccount.cs",
+              "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\Enums\\TypeAccount.cs",
+              "ToolTip": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Enums\\TypeAccount.cs",
+              "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\Enums\\TypeAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T01:12:39.937Z",
+              "WhenOpened": "2024-04-16T01:11:20.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountOptions.cs",
+              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Enums\\AccountOptions.cs",
+              "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\Enums\\AccountOptions.cs",
+              "ToolTip": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Enums\\AccountOptions.cs",
+              "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\Enums\\AccountOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T01:11:19.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\UI\\Menu.cs",
+              "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\UI\\Menu.cs",
+              "ToolTip": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\UI\\Menu.cs",
+              "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\UI\\Menu.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAYwIEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T01:10:40.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\BusinessLayar\\Account.cs",
               "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\BusinessLayar\\Account.cs",
               "ToolTip": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\BusinessLayar\\Account.cs",
               "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\BusinessLayar\\Account.cs",
-              "ViewState": "AQIAAIwAAAAAAAAAAAAmwJMAAABiAAAA",
+              "ViewState": "AQIAAN4AAAAAAAAAAAAuwOkAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T02:09:00.491Z",
               "EditorCaption": ""

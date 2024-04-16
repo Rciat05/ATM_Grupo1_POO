@@ -13,8 +13,8 @@ namespace Tarea_ATM_Grupo1_POO.BusinessLayar
     public static class Account
     {
         public static string? Name { get; set; }
-        public static decimal CorrienteBalance { get; set; } = 100;
-        public static decimal AhorroBalance{ get; set; } = 1500;
+        public static decimal CorrienteBalance { get; set; } = 1500;
+        public static decimal AhorroBalance{ get; set; } = 15000;
 
         public static Dictionary<string, string> UsersPIN { get; } = new Dictionary<string, string>
         {
@@ -46,7 +46,7 @@ namespace Tarea_ATM_Grupo1_POO.BusinessLayar
             else
             {
                 CorrienteBalance  -= amount;
-                AnsiConsole.WriteLine($"Retiro realizado correctamente, su nuevo balance es {CorrienteBalance}:");
+                AnsiConsole.WriteLine($"Retiro realizado correctamente, su nuevo balance es ${CorrienteBalance}:");
             }  
         }
         public static void WithdrawAhorro()
@@ -59,7 +59,7 @@ namespace Tarea_ATM_Grupo1_POO.BusinessLayar
             else
             {
                 AhorroBalance  -= amount;
-                AnsiConsole.WriteLine($"Retiro realizado correctamente, su nuevo balance es {AhorroBalance}:");
+                AnsiConsole.WriteLine($"Retiro realizado correctamente, su nuevo balance es ${AhorroBalance}:");
             }  
         }
         public static void ViewBalanceCorriente()
@@ -224,7 +224,6 @@ namespace Tarea_ATM_Grupo1_POO.BusinessLayar
                         DepositAhorro();
                         break;
                     case AccountOptions.Salir:
-                        // Exit the program
                         Environment.Exit(0);
                         break;
                     default:
