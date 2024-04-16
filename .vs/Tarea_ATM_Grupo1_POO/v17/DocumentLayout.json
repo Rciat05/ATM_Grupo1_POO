@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\businesslayar\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\businesslayar\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\enums\\typeaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\enums\\typeaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\enums\\accountoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\enums\\accountoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\enums\\typeaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|solutionrelative:tarea_atm_grupo1_poo\\enums\\typeaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B414CB1E-BF01-43DE-B694-DAE44A6D3317}|Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO.csproj|c:\\desktop\\escritorio 2024\\poo\\tareas\\lab 1- computo 2\\tarea_atm_grupo1_poo\\tarea_atm_grupo1_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AccountOptions.cs",
               "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Enums\\AccountOptions.cs",
               "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\Enums\\AccountOptions.cs",
@@ -42,12 +42,11 @@
               "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\Enums\\AccountOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T01:39:45.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T01:39:45.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TypeAccount.cs",
               "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\Enums\\TypeAccount.cs",
               "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\Enums\\TypeAccount.cs",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\Enums\\TypeAccount.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T01:39:42.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T01:39:42.125Z"
             },
             {
               "$type": "Document",
@@ -72,26 +70,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\UI\\Menu.cs",
               "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\UI\\Menu.cs",
               "ToolTip": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\UI\\Menu.cs",
               "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\UI\\Menu.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAQwGcAAABeAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAQwGIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T01:12:39.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\BusinessLayar\\Account.cs",
               "RelativeDocumentMoniker": "Tarea_ATM_Grupo1_POO\\BusinessLayar\\Account.cs",
               "ToolTip": "C:\\Desktop\\Escritorio 2024\\POO\\Tareas\\Lab 1- Computo 2\\Tarea_ATM_Grupo1_POO\\Tarea_ATM_Grupo1_POO\\BusinessLayar\\Account.cs",
               "RelativeToolTip": "Tarea_ATM_Grupo1_POO\\BusinessLayar\\Account.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIsAAAAJAAAA",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAmwJMAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T02:09:00.491Z",
               "EditorCaption": ""

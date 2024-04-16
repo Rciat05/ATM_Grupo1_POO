@@ -26,19 +26,19 @@ namespace Tarea_ATM_Grupo1_POO.BusinessLayar
         };
         public static void DepositCorriente()
         {
-            decimal amount = AnsiConsole.Ask<decimal>("[green]Digite la cantidad que se quiere depositar: [/]");
+            decimal amount = AnsiConsole.Ask<decimal>("[green]Digite la cantidad que se quiere depositar: $[/]");
             CorrienteBalance  += amount;
             AnsiConsole.WriteLine($"Prceso realizado correctamente, su nuevo balance es {CorrienteBalance }: ");
         }
         public static void DepositAhorro()
         {
-            decimal amount = AnsiConsole.Ask<decimal>("[green]Digite la cantidad que se quiere depositar: [/]");
+            decimal amount = AnsiConsole.Ask<decimal>("[green]Digite la cantidad que se quiere depositar: $[/]");
             AhorroBalance  += amount;
             AnsiConsole.WriteLine($"Prceso realizado correctamente, su nuevo balance es {AhorroBalance }: ");
         }
         public static void WithdrawCorriente()
         {
-            decimal amount = AnsiConsole.Ask<decimal>("[blue]Digite la cantidad que se quiere retirar: [/]");
+            decimal amount = AnsiConsole.Ask<decimal>("[blue]Digite la cantidad que se quiere retirar: $[/]");
             if (amount > CorrienteBalance ) 
             {
                 AnsiConsole.WriteLine("Lo siento, no cuenta con fondos suficientes...");
@@ -51,7 +51,7 @@ namespace Tarea_ATM_Grupo1_POO.BusinessLayar
         }
         public static void WithdrawAhorro()
         {
-            decimal amount = AnsiConsole.Ask<decimal>("[blue]Digite la cantidad que se quiere retirar: [/]");
+            decimal amount = AnsiConsole.Ask<decimal>("[blue]Digite la cantidad que se quiere retirar: $[/]");
             if (amount > AhorroBalance) 
             {
                 AnsiConsole.WriteLine("Lo siento, no cuenta con fondos suficientes...");
@@ -64,11 +64,11 @@ namespace Tarea_ATM_Grupo1_POO.BusinessLayar
         }
         public static void ViewBalanceCorriente()
         {
-            AnsiConsole.WriteLine($"El saldo de su cuenta corriente es: {CorrienteBalance }");
+            AnsiConsole.WriteLine($"El saldo de su cuenta corriente es: ${CorrienteBalance }");
         }
         public static void ViewBalanceAhorro()
         {
-            AnsiConsole.WriteLine($"El saldo de su cuenta de ahorro es: {AhorroBalance}");
+            AnsiConsole.WriteLine($"El saldo de su cuenta de ahorro es: ${AhorroBalance}");
         }
         public static void ChangePin()
         {
@@ -107,7 +107,7 @@ namespace Tarea_ATM_Grupo1_POO.BusinessLayar
                         Bills.Internet
                     }));
 
-                decimal amount = AnsiConsole.Ask<decimal>("[blue]Digite la cantidad que desea pagar: [/]");
+                decimal amount = AnsiConsole.Ask<decimal>("[blue]Digite la cantidad que desea pagar: $[/]");
 
                 switch (typeBill)
                 {
@@ -145,7 +145,7 @@ namespace Tarea_ATM_Grupo1_POO.BusinessLayar
             else
             {
                 CorrienteBalance -= amount;
-                AnsiConsole.WriteLine($"Factura {bill} pagada correctamente, su nuevo balance es {CorrienteBalance}:");
+                AnsiConsole.WriteLine($"Factura {bill} pagada correctamente, su nuevo balance es ${CorrienteBalance}:");
             }
         }
         public static void ProcessCurrentAccount()

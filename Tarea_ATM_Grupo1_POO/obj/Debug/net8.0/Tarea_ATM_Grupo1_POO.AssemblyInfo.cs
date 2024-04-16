@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tarea_ATM_Grupo1_POO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85e986f0436b4e571e3c9e361f3b574730e89db6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3146370f52f57349814f9ab61a9a1889357e746e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tarea_ATM_Grupo1_POO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tarea_ATM_Grupo1_POO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
