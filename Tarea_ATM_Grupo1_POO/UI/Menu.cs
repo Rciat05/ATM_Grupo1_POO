@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using Tarea_ATM_Grupo1_POO.BusinessLayar;
 using Tarea_ATM_Grupo1_POO.Enums;
-using static Tarea_ATM_Grupo1_POO.UI.Menu;
 
 namespace Tarea_ATM_Grupo1_POO.UI
 {
@@ -17,11 +16,20 @@ namespace Tarea_ATM_Grupo1_POO.UI
             { new AccountInfo("987654321", "1020"), "" },
             { new AccountInfo("112233445", "1030"), "" },
             { new AccountInfo("566778899", "1040"), "" },
-            { new AccountInfo("021212828", "3060"), "" }    
+            { new AccountInfo("021212828", "3060"), "" }
         };
 
         public void LoadMenu()
         {
+            var accountInfo = GetUserAccountInfo();
+
+            bool authenticated = AuthenticateUser(accountInfo);
+            if (!authenticated)
+            {
+                AnsiConsole.Markup("[red] Autenticación fallida. Saliendo del sistema.[/]");
+                return;
+            }
+
             var typeAccount = AnsiConsole.Prompt(
                 new SelectionPrompt<TypeAccount>()
                 .Title("\n[aqua]Seleccione su tipo de cuenta:[/]")
@@ -32,8 +40,6 @@ namespace Tarea_ATM_Grupo1_POO.UI
                     TypeAccount.CuentaAhorro
                 }));
 
-            var accountInfo = GetUserAccountInfo(); 
-
             switch (typeAccount)
             {
                 case TypeAccount.CuentaCorriente:
@@ -42,13 +48,6 @@ namespace Tarea_ATM_Grupo1_POO.UI
                 case TypeAccount.CuentaAhorro:
                     Account.ProcessSavingsAccount();
                     break;
-            }
-
-            bool authenticated = AuthenticateUser(accountInfo);
-            if (!authenticated)
-            {
-                AnsiConsole.Markup("[red]Autenticación fallida. Saliendo del sistema.[/]");
-                return;
             }
 
             char continuar;
@@ -101,7 +100,10 @@ namespace Tarea_ATM_Grupo1_POO.UI
         {
             try
             {
-                if (_usuariosPIN.ContainsKey(accountInfo))
+                var accountKey = _usuariosPIN.Keys.FirstOrDefault(key =>
+                    key.AccountNumber == accountInfo.AccountNumber && key.Pin == accountInfo.Pin);
+
+                if (accountKey != null)
                 {
                     return true;
                 }
